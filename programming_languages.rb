@@ -14,6 +14,10 @@ languages.each do |style , language |
  
  end 
  end 
- 
- 
+ languages.each do |style , language |
+  language.each do |lang ,type |
+    new_hash[languages][:style] << style
+  end 
+end 
+ new_hash
 end
