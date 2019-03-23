@@ -1,9 +1,10 @@
 require 'pry'
 
 def reformat_languages(languages)
-  # your code here
-  binding.pry 
+  #binding.pry 
   new_hash = {}
-  languages.each
+  languages.map each |style , language|
+  new_hash << language
+  binding.pry
   new_hash
 end
