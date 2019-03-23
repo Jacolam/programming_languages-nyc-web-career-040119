@@ -1,10 +1,9 @@
-require 'pry'
-
 def reformat_languages(languages)
-  #binding.pry 
+  # your code here
   new_hash = {}
-  languages.each do |style , langs|
-   langs.each do |lang, lang_data|    
+
+  languages.each do |type, langs|
+    langs.each do |lang, lang_data|    
       if !new_hash[lang]
         new_hash[lang] = {}
         new_hash[lang][lang_data.keys[0]] = lang_data.values[0]
