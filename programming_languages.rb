@@ -13,10 +13,10 @@ languages.each do |style , language |
  
  end 
  end 
- languages.each do |style , language |
-  language.each do |lang ,type |
-    new_hash[languages][:style] << style
-  end 
-end 
- new_hash
+ languages.each do |style, data1|
+    data1.each do |language, data2|
+      new_hash[language][:style] << style
+    end
+  end
+  return new_hash
 end
