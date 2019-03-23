@@ -3,7 +3,7 @@ require 'pry'
 def reformat_languages(languages)
   #binding.pry 
   new_hash = {}
-  languages.each do |style , language|
+  languages.each do |style , langs|
    langs.each do |lang, lang_data|    
       if !new_hash[lang]
         new_hash[lang] = {}
