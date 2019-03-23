@@ -12,5 +12,13 @@ languages.each do |style , language |
  
  end 
  
+ languages.each do |style, language |
+ language.each do | x , y |
+ binding.pry 
+ 
+ end 
+ 
+ end 
+ 
   new_hash
 end
