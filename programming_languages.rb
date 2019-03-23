@@ -13,7 +13,7 @@ languages.each do |style , language |
  end 
  
  languages.each do |style, language|
-    data1.each do |language, data2|
+    language.each do |language, data2|
       new_hash[language][:style] << style
     end
   end
