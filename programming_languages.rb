@@ -7,7 +7,7 @@ languages.each do |style , language |
   language.each do |lang ,type |
     type.each do |symbol_type , value|
       #binding.pry 
-      new_hash[language] = {:type => value , :style => [] }
+      new_hash[language] = {:type => type, :style => []}
      end 
  
  end 
