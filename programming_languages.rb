@@ -5,9 +5,13 @@ def reformat_languages(languages)
   new_hash ={}
 languages.each do |style , language |
   language.each do |lang ,type |
-    binding.pry 
+    type.each do |symbol_type , value|
+      #binding.pry 
+      new_hash[language] = {:type => value , :style => [] }
+     end 
  
  end 
  end 
+ 
  
 end
