@@ -9,7 +9,6 @@ languages.each do |style , language |
       
       
       new_hash[language] = {:type => value , :style => [] }
-     binding.pry
      end 
  
  end 
