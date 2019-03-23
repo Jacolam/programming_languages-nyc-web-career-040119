@@ -12,10 +12,4 @@ languages.each do |style , language |
  
  end 
  
- languages.each do |style, language|
-    language.each do |language, data2|
-      new_hash[language][:style] << style
-    end
-  end
-  return new_hash
 end
